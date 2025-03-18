@@ -132,7 +132,7 @@ def main():
 
     if topic_type not in VIEWER_MAPPING:
         print("Unsupported message type.")
-        exit()
+        exit(1)
 
     # Create the canvas and viewer accordingly
 
